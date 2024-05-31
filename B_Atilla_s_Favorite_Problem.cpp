@@ -11,8 +11,7 @@ public:
 
     bool consec(int num)
     {
-        if (num == value)
-            count++;
+        if (num == value) count++;
         else
             count = 0;
         return count >= k;
