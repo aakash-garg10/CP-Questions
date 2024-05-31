@@ -23,9 +23,9 @@ void solve()
     mp['T']++,mp['u']++,mp['m']++,mp['i']++,mp['r']++;
 
     if(N==5){
-    for(auto c:A){
+    for(auto c:A)
         mp[c]--;
-    }
+    
    
     for(auto i:mp){
         if(i.second>0){
